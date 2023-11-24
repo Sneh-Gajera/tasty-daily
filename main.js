@@ -92,7 +92,7 @@ $('.related_slider').owlCarousel({
         600:{
             items:2
         },
-        1000:{
+        992:{
             items:4
         }
     }
