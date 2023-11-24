@@ -398,6 +398,9 @@
   .bg_row_color td {
     font-size: 12px !important;
   }
+  .logo_side img{
+    width: 100px !important;
+  }
 }
 
 @media only screen and (max-width: 400px) {
