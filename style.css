@@ -344,6 +344,7 @@ ul {
   font-weight: 400;
 }
 .image_parts {
+  
   position: relative;
 }
 
@@ -365,13 +366,12 @@ ul {
 }
 .image_parts h3 {
   color: #fff;
-  text-align: center;
   font-family: var(--font-family);
   font-size: 20px;
   font-weight: 700;
   position: absolute;
-  bottom: 32px;
-  left: 22%;
+  bottom: 10px;
+  left: 10px;
   z-index: 9999;
   line-height: 30px;
 }

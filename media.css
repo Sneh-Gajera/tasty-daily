@@ -1,4 +1,32 @@
+@media only screen and (max-width: 1399px) {
+  .hero {
+    height: 500px;
+  }
+  .hero_text h2{
+    font-size: 40px;
+  }
+  .owl-next {
+    right: -60px;
+  }
+
+  .owl-prev {
+    left: -60px;
+  }
+  .delivery_text h2{
+    font-size: 45px;
+  }
+  .delivery{
+    height: 420px;
+  }
+  .support{
+    height: 460px;
+  }
+}
+
 @media only screen and (max-width: 1199px) {
+  .hero {
+    height: 450px;
+  }
   .image_part {
     height: 170px;
   }
@@ -16,8 +44,31 @@
   .about_text h3 {
     font-size: 35px;
   }
-}
+  .owl-next {
+    right: -70px;
+  }
 
+  .owl-prev {
+    left: -70px;
+  }
+  .delivery_text h2,.support_text h2{
+    font-size: 35px;
+  }
+  .delivery{
+    height: 350px;
+  }
+  .support{
+    height: 400px;
+  }
+}
+@media only screen and (max-width: 1100px){
+  .hero {
+    height: 400px;
+  }
+ .owl-nav{
+  display: none;
+ }
+}
 @media only screen and (max-width: 991px) {
   .same_sec {
     margin-top: 50px;
@@ -25,7 +76,9 @@
   .humberger {
     display: block;
   }
-
+  .owl-nav{
+    display: block;
+   }
   .link_side {
     padding-left: 25px;
     display: flex;
@@ -114,7 +167,8 @@
   }
 
   .footer_main .text_part p {
-    font-size: 16px;
+    font-size: 14px;
+    text-align: justify;
     font-weight: 400;
     width: 100%;
   }
@@ -146,7 +200,11 @@
     cursor: pointer;
   }
 }
-
+@media only screen and (max-width: 768px) {
+  .owl-nav {
+    display: none;
+  }
+}
 @media only screen and (max-width: 767px) {
   .bread_title h2 {
     font-size: 20px;
@@ -175,9 +233,11 @@
   .hero_text p {
     font-size: 15px;
   }
-  .owl-nav {
-    display: none;
+  .home_text p {
+    font-size: 14px;
+    text-align: justify;
   }
+
   .image_part_d img {
     width: 40%;
   }
@@ -370,29 +430,29 @@
     height: 260px;
     padding-bottom: 0;
   }
-  .delivery_text h2,.support_text h2 {
+  .delivery_text h2,
+  .support_text h2 {
     font-size: 15px;
   }
   .delivery_text p {
     padding-top: 10px;
     font-size: 12px;
   }
-  .support{
+  .support {
     height: 250px;
   }
-  .support_text span 
-  {
+  .support_text span {
     font-size: 12px;
     padding: 10px;
   }
-  .deal_time{
+  .deal_time {
     gap: 10px;
   }
-  .feature{
+  .feature {
     gap: 10px;
   }
 
   .fea1 span {
-    font-size: 12px
+    font-size: 12px;
   }
 }
