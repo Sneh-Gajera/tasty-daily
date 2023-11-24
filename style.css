@@ -1146,3 +1146,8 @@ DETAILS
   font-size: 20px;
   font-weight: 500;
 }
+
+.owl-theme .owl-dots {
+  padding-top: 30px;
+  display: none;
+}

@@ -38,7 +38,7 @@ $('.top_slider').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
-    dots:false,
+    dots:true,
     autoplay: true,
     // autoplaySpeed: 1000,
     smartSpeed: 500,
@@ -61,7 +61,7 @@ $('.review_slider').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
-    dots:false,
+    dots:true,
     autoplay: true,
     smartSpeed: 500,
     responsive:{
@@ -82,7 +82,7 @@ $('.related_slider').owlCarousel({
     loop:true,
     margin:15,
     nav:true,
-    dots:false,
+    dots:true,
     autoplay: true,
     smartSpeed: 500,
     responsive:{

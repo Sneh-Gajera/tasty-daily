@@ -200,6 +200,19 @@
     font-weight: 500;
     cursor: pointer;
   }
+
+  .owl-theme .owl-dots{
+    display: block;
+   }
+   .owl-theme .owl-dots .owl-dot.active span{
+     background-color: #243f2f !important;
+     opacity: 1;
+     
+   }
+   .owl-theme .owl-dots .owl-dot span {
+     background: #00d783 !important ;
+     opacity: 0.2;
+   }
 }
 @media only screen and (max-width: 768px) {
   .owl-nav {
