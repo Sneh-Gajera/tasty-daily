@@ -205,12 +205,12 @@
     display: block;
    }
    .owl-theme .owl-dots .owl-dot.active span{
-     background-color: #243f2f !important;
+     background-color: #00d783 !important;
      opacity: 1;
      
    }
    .owl-theme .owl-dots .owl-dot span {
-     background: #00d783 !important ;
+     background: #243f2f !important ;
      opacity: 0.2;
    }
 }
