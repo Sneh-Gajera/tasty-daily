@@ -1,0 +1,398 @@
+@media only screen and (max-width: 1199px) {
+  .image_part {
+    height: 170px;
+  }
+  .title_part h3 {
+    font-size: 22px;
+  }
+  .price span {
+    font-size: 18px;
+  }
+
+  .contact_info P {
+    font-size: 12px;
+  }
+
+  .about_text h3 {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .same_sec {
+    margin-top: 50px;
+  }
+  .humberger {
+    display: block;
+  }
+
+  .link_side {
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 999;
+    transition: 0.6s all;
+  }
+  .link_side.active {
+    left: 0px;
+  }
+
+  .link_side ul {
+    margin-top: 30px;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .top_header,
+  .top_header i {
+    font-size: 10px;
+  }
+  .hero {
+    height: 400px;
+  }
+  .home_image_part img {
+    width: 100%;
+  }
+  .home_text {
+    margin-top: 25px;
+  }
+  .hero_text {
+    padding-left: 40%;
+  }
+  .hero_text h2 {
+    font-family: var(--font-family);
+    color: #fff;
+    font-size: 35px;
+    padding-bottom: 15px;
+  }
+  .image_parts h3 {
+    left: 14%;
+  }
+  .delivery {
+    height: 380px;
+  }
+  .delivery_text h2 {
+    font-size: 20px;
+  }
+  .support {
+    height: 270px;
+  }
+  .support_text h2 {
+    font-size: 20px;
+  }
+  .support_text span {
+    text-align: center;
+    width: 160px;
+    font-size: 16px;
+  }
+
+  .owl-next {
+    position: absolute;
+    right: -10%;
+    top: 35%;
+  }
+
+  .owl-prev {
+    position: absolute;
+    top: 35%;
+    left: -10%;
+  }
+
+  /* breadcrumb */
+
+  .braed {
+    height: 250px;
+  }
+
+  .image_part {
+    height: 250px;
+  }
+
+  .footer_main .text_part p {
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+  }
+
+  /* about */
+
+  .about_text h3 {
+    font-size: 25px;
+  }
+
+  .about_text p {
+    font-size: 14px;
+  }
+
+  .about_text_part p {
+    font-size: 14px;
+  }
+
+  .about_text_part h4 {
+    font-size: 20px;
+  }
+
+  /* gallery */
+
+  .gallery .item_list ul li {
+    padding: 8px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .bread_title h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .breadcrumb li,
+  .breadcrumb li a {
+    font-size: 16px;
+  }
+
+  .gallery .item_list ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .gallery_img img {
+    width: 248px;
+    height: 248px;
+  }
+  .hero {
+    height: 300px;
+  }
+  .hero_text h2 {
+    font-size: 26px;
+  }
+  .hero_text p {
+    font-size: 15px;
+  }
+  .owl-nav {
+    display: none;
+  }
+  .image_part_d img {
+    width: 40%;
+  }
+  .category1 img {
+    width: 80px;
+  }
+  .category1 p {
+    font-size: 14px;
+  }
+  .delivery {
+    height: 400px;
+  }
+  .delivery {
+    padding: 30px 0;
+  }
+  .delivery_text {
+    margin-top: 15px;
+  }
+  .delivery_text p {
+    padding-top: 15px;
+  }
+  .delivery_row {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .support {
+    height: 360px;
+  }
+  .support_row {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .support_contact {
+    display: flex;
+    justify-content: center;
+  }
+  .support_text {
+    margin-top: 20px;
+  }
+
+  .support_text h2 {
+    padding-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .braed {
+    height: 200px;
+  }
+
+  .gallery_img img {
+    width: 100%;
+  }
+
+  .bg_row_color td {
+    font-size: 15px !important;
+  }
+  .sec_table p,
+  .sec_table span {
+    font-size: 14px !important;
+  }
+  .form-check label {
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .hero {
+    height: 200px;
+  }
+  .hero_text {
+    padding-left: 40%;
+  }
+  .table_btn {
+    font-size: 15px;
+    padding: 10px 10px;
+  }
+
+  .deal_time {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .time {
+    padding: 10px 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .hero_text h2 {
+    font-size: 20px;
+  }
+  .subscribe {
+    display: none;
+  }
+  .category_sec {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .category_sec p {
+    display: none;
+  }
+  .time {
+    padding: 10px;
+  }
+  .time h3 {
+    font-size: 18px;
+  }
+  .deal_section {
+    height: 350px;
+  }
+  .delivery {
+    height: 350px;
+    padding: 20px 0;
+  }
+  .category1 img {
+    width: 50px;
+  }
+
+  .fea1 span {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .user_info i {
+    font-size: 15px;
+  }
+  .top_header,
+  .top_header i {
+    font-size: 8px;
+  }
+  .gallery .item_list ul {
+    gap: 10px;
+  }
+  .braed {
+    height: 170px;
+  }
+  .bg_row_color td {
+    font-size: 12px !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .deal_section {
+    height: 400px;
+  }
+  .deal_part h2 {
+    font-size: 25px;
+  }
+  .hero {
+    height: 150px;
+  }
+  .hero_text h2 {
+    font-size: 16px;
+  }
+  .hero_text p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .braed {
+    height: 150px;
+  }
+
+  .gallery .item_list ul li {
+    padding: 8px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .hero {
+    height: 100px;
+  }
+  .hero_text h2 {
+    font-size: 13px;
+    padding-bottom: 0;
+  }
+  .hero_text p {
+    font-size: 10px;
+  }
+  .home_textt {
+    padding: 0 10px;
+  }
+  .delivery {
+    height: 260px;
+    padding-bottom: 0;
+  }
+  .delivery_text h2,.support_text h2 {
+    font-size: 15px;
+  }
+  .delivery_text p {
+    padding-top: 10px;
+    font-size: 12px;
+  }
+  .support{
+    height: 250px;
+  }
+  .support_text span 
+  {
+    font-size: 12px;
+    padding: 10px;
+  }
+  .deal_time{
+    gap: 10px;
+  }
+  .feature{
+    gap: 10px;
+  }
+
+  .fea1 span {
+    font-size: 12px
+  }
+}
