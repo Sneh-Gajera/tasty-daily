@@ -437,6 +437,8 @@
     height: 150px;
   }
   .hero_text h2 {
+    padding: 0;
+    margin: 0;
     font-size: 16px;
   }
   .hero_text p {
