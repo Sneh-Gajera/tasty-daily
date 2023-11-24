@@ -348,6 +348,9 @@
   .hero_text h2 {
     font-size: 20px;
   }
+  .hero_text p {
+    display: none;
+  }
   .subscribe {
     display: none;
   }
@@ -369,13 +372,18 @@
     height: 350px;
   }
   .delivery {
-    height: 350px;
+    height: 315px;
     padding: 20px 0;
   }
   .category1 img {
     width: 50px;
   }
-
+  .support {
+    height: 310px;
+}
+.home_image_part img {
+  width: 70%;
+}
   .fea1 span {
     font-size: 14px;
   }

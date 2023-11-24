@@ -162,7 +162,7 @@ ul {
   height: 100%;
 }
 .home_image_part img {
-  width: 90%;
+  width: 80%;
 }
 .home_text h4 {
   color: var(--parrot-color);
@@ -612,6 +612,7 @@ ul {
   cursor: pointer;
 }
 .footer_main h4 {
+  color: #243f2f;
   margin-bottom: 0 !important;
 }
 .foot_menu li {
