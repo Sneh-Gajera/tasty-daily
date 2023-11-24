@@ -344,7 +344,6 @@ ul {
   font-weight: 400;
 }
 .image_parts {
-  
   position: relative;
 }
 
@@ -432,7 +431,7 @@ ul {
   background: #84a55e;
   height: 510px;
 }
-.support_text{
+.support_text {
   display: flex;
   justify-content: center;
   height: 100%;
@@ -525,21 +524,26 @@ ul {
 }
 
 .title_part h3 {
+  font-size: 22px;
+  font-family: var(--font-family);
   color: var(--parrot-color);
+  padding-bottom: 10px;
 }
 .title_part {
   padding: 0 15px 15px 15px;
 }
 .price span {
+  font-family: var(--font-family1);
   font-weight: 500;
   font-size: 20px;
   color: var(--jeri-green);
 }
 
 .price p {
+  font-family: var(--font-family1);
   text-decoration: line-through;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   color: #c0c0c0;
 }
 .cart i {
@@ -563,6 +567,7 @@ ul {
 }
 
 .load_more button {
+  font-family: var(--font-family1);
   border: none;
   padding: 10px;
   border-radius: 25px;
@@ -634,13 +639,16 @@ ul {
 }
 
 .contact_info h3 {
+  font-family: var(--font-family);
   font-size: 22px;
   color: var(--parrot-color);
 }
 
 .contact_info p {
+  font-family: var(--font-family1);
   color: #777777;
-  font-size: 16px;
+  font-size: 14px;
+  padding-top: 15px;
 }
 
 .image img {
@@ -662,6 +670,7 @@ ul {
 }
 
 .send button {
+  font-family: var(--font-family1);
   border: none;
   padding: 10px 20px;
   border-radius: 25px;
@@ -689,12 +698,14 @@ ul {
   align-items: center;
 }
 .about_text h3 {
+  font-family: var(--font-family);
   font-size: 40px;
 }
 .about_text span {
   color: #00d783;
 }
 .about_text p {
+  font-family: var(--font-family1);
   text-align: justify;
   color: #777;
   font-size: 16px;
@@ -740,11 +751,15 @@ ul {
   color: var(--parrot-color);
 }
 .about_text_part h4 {
+  font-size: 20px;
+  font-family: var(--font-family);
   color: var(--jeri-green);
 }
 .about_text_part p {
+  padding-top: 15px;
+  font-family: var(--font-family1);
   color: #777;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
 }
 
@@ -781,7 +796,7 @@ ul {
 
 .gallery .item_list ul li {
   padding: 8px 20px;
-  font-family: var(--third-font);
+  font-family: var(--font-family1);
   font-size: 20px;
   font-weight: 500;
   cursor: pointer;
@@ -890,4 +905,222 @@ ul {
 }
 .sec_table td {
   padding: 20px !important;
+}
+
+/* ........................
+
+DETAILS
+.............................*/
+.small_img_group{
+  display: flex;
+  justify-content: space-between;
+}
+.pro_image1 {
+  width: 100%;
+}
+.small_img_col{
+  cursor: pointer;
+  flex-basis: 24%;
+}
+.pro_image img{
+  border-radius: 10px;
+}
+
+.details_text_part .price {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: var(--jeri-green);
+  font-family: var(--font-family1);
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+.details_text_part h2 {
+  color: var(--parrot-color);
+  font-family: var(--font-family);
+  font-size: 35px;
+  font-weight: 380;
+  padding-bottom: 15px;
+}
+.details_text_part .review {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 15px;
+}
+.star {
+  display: flex;
+  align-items: center;
+  color: #fdcc0d;
+}
+
+.details_text_part .text p {
+  color: #777;
+  font-family: var(--font-family1);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.details_text_part p {
+  color: #777;
+  font-family: var(--font-family1);
+  font-size: 16px;
+  font-weight: 300;
+}
+.id_main {
+  display: flex;
+  gap: 30px;
+  padding-top: 20px;
+}
+
+.details_text_part .id {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.details_text_part .id span {
+  font-family: var(--font-family1);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.details_text_part .id p {
+  font-family: var(--font-family1);
+  font-size: 14px;
+  font-weight: 300;
+}
+.kg {
+  padding-top: 25px;
+  padding-bottom: 35px;
+}
+.kg span {
+  padding: 6px 20px;
+  border-radius: 10px;
+  color: black;
+  background-color: rgb(235, 235, 235);
+  margin-right: 10px;
+}
+.kg span.active {
+  color: #fff;
+  background-color: var(--jeri-green);
+}
+.qty1 {
+  display: flex;
+  gap: 25px;
+}
+.qty1 span {
+  padding: 12px;
+  border-radius: 25px;
+  border: 1px solid var(--jeri-green);
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+.qty1 p {
+  color: black;
+  font-family: var(--font-family1);
+  font-size: 16px;
+  font-weight: 600;
+}
+.qty1 button {
+  border: none;
+  border-radius: 25px;
+  padding: 12px;
+  color: #fff;
+  font-family: var(--font-family1);
+  font-size: 14px;
+  font-weight: 600;
+  background-color: var(--parrot-color);
+}
+.details_text_part ul {
+  padding-top: 25px;
+}
+
+.details_text_part li {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: #777;
+  font-family: var(--font-family1);
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.tab-content p {
+  color: #777;
+  text-align: justify;
+  font-family: var(--font-family1);
+  font-size: 14px;
+  font-weight: 300;
+  padding-bottom: 25px;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: var(--jeri-green) !important;
+  color: #fff !important;
+}
+.nav-pills .nav-link {
+  margin-right: 15px;
+  border-radius: 25px !important;
+  font-family: var(--font-family1);
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff !important;
+  background-color: var(--parrot-color) !important;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+
+.review_slider .item .top_image img {
+  width: 90px;
+}
+.review_slider .top_part {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.review_slider .owl-nav {
+  display: none;
+}
+.top_text h4 {
+  padding-bottom: 10px;
+}
+.review_slider p {
+  color: #777;
+  text-align: justify;
+  font-family: var(--font-family1);
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.owl-carousel .owl-stage-outer {
+  padding: 20px 0;
+}
+.related_slider .owl-nav {
+  text-align: center;
+  left: 50%;
+  bottom: 0;
+  position: absolute;
+}
+.pro_related h3 {
+  font-size: 14px !important;
+  padding-bottom: 0;
+}
+
+.pro_related .price_main span,
+.pro_related .price_main p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.rel_title {
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 500;
 }

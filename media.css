@@ -2,7 +2,7 @@
   .hero {
     height: 500px;
   }
-  .hero_text h2{
+  .hero_text h2 {
     font-size: 40px;
   }
   .owl-next {
@@ -12,13 +12,13 @@
   .owl-prev {
     left: -60px;
   }
-  .delivery_text h2{
+  .delivery_text h2 {
     font-size: 45px;
   }
-  .delivery{
+  .delivery {
     height: 420px;
   }
-  .support{
+  .support {
     height: 460px;
   }
 }
@@ -51,23 +51,24 @@
   .owl-prev {
     left: -70px;
   }
-  .delivery_text h2,.support_text h2{
+  .delivery_text h2,
+  .support_text h2 {
     font-size: 35px;
   }
-  .delivery{
+  .delivery {
     height: 350px;
   }
-  .support{
+  .support {
     height: 400px;
   }
 }
-@media only screen and (max-width: 1100px){
+@media only screen and (max-width: 1100px) {
   .hero {
     height: 400px;
   }
- .owl-nav{
-  display: none;
- }
+  .owl-nav {
+    display: none;
+  }
 }
 @media only screen and (max-width: 991px) {
   .same_sec {
@@ -76,9 +77,9 @@
   .humberger {
     display: block;
   }
-  .owl-nav{
+  .owl-nav {
     display: block;
-   }
+  }
   .link_side {
     padding-left: 25px;
     display: flex;
@@ -285,6 +286,21 @@
   .support_text h2 {
     padding-bottom: 15px;
   }
+
+  .details_text_part h2 {
+    font-size: 25px;
+  }
+  .details_text_part p {
+    font-size: 14px;
+  }
+  .qty1 span,
+  .qty1 button {
+    padding: 7px;
+    font-size: 14px;
+  }
+  .tab-content p {
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 575px) {
@@ -399,6 +415,10 @@
   }
   .hero_text p {
     font-size: 12px;
+  }
+  .id_main {
+    flex-wrap: wrap;
+    gap: 10px;
   }
 }
 
