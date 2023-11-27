@@ -72,7 +72,7 @@
 }
 @media only screen and (max-width: 991px) {
   .same_sec {
-    margin-top: 50px;
+    margin-top: 35px;
   }
   .humberger {
     display: block;
@@ -160,6 +160,7 @@
   /* breadcrumb */
 
   .braed {
+    margin-top: 50px;
     height: 250px;
   }
 
@@ -215,6 +216,10 @@
    }
 }
 @media only screen and (max-width: 768px) {
+  .hero {
+    margin-top: 50px;
+    height: 300px;
+  }
   .owl-nav {
     display: none;
   }
@@ -336,6 +341,7 @@
     font-weight: bold;
   }
   .hero {
+    margin-top: 70px;
     height: 200px;
   }
   .hero_text {
@@ -415,6 +421,10 @@
   .gallery .item_list ul {
     gap: 10px;
   }
+  .hero {
+    margin-top: 70px;
+    height: 170px;
+  }
   .braed {
     height: 170px;
   }
@@ -467,6 +477,9 @@
   .hero_text h2 {
     font-size: 13px;
     padding-bottom: 0;
+  }
+  .about_text h3{
+    font-size: 18px !important;
   }
   .hero_text p {
     font-size: 10px;

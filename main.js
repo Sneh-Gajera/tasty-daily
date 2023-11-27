@@ -10,10 +10,10 @@ $(document).ready(function () {
 
   // sticky nav
 
-// window.addEventListener("scroll", function () {
-//   let nav = document.querySelector(".navigate_bar");
-//   nav.classList.toggle("sticky", window.scrollY > 50);
-// });
+window.addEventListener("scroll", function () {
+  let nav = document.querySelector(".navigate_bar");
+  nav.classList.toggle("sticky", window.scrollY > 50);
+});
 
 
   $('.brand_slider').owlCarousel({
