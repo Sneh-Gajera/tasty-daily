@@ -1,5 +1,16 @@
 
 
+// preloader
+
+$(document).ready(function () {
+    setTimeout(() => {
+      $("#pre_loader").addClass("loaded");
+    }, 2000);
+    setTimeout(() => {
+      $("#pre_loader").remove("loaded");
+    }, 3000);
+  });
+
 $(document).ready(function () {
     $(".humberger i").click(function () {
       $(this).toggleClass("fa-times");

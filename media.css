@@ -71,6 +71,9 @@
   }
 }
 @media only screen and (max-width: 991px) {
+  .spinner{
+    font-size: 18px;
+  }
   .same_sec {
     margin-top: 35px;
   }
@@ -321,6 +324,10 @@
 }
 
 @media only screen and (max-width: 575px) {
+
+  .spinner{
+    font-size: 16px;
+  }
   .braed {
     height: 200px;
   }
