@@ -870,7 +870,7 @@ ul {
 /* gallery */
 
 .gallery_main {
-  margin-top: 100px;
+  /* margin-top: 100px; */
 }
 .item_list {
   display: flex;
