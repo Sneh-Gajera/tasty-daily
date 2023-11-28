@@ -231,6 +231,7 @@
   .owl-nav {
     display: none;
   }
+  
 }
 @media only screen and (max-width: 767px) {
   .bread_title h2 {
@@ -326,6 +327,14 @@
   .tab-content p {
     font-size: 14px;
   }
+  .checkout_btn{
+    display: none;
+  }
+  .pay_btn{
+    margin-top: 15px;
+    text-align: center;
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 575px) {
@@ -376,14 +385,14 @@
     padding: 10px 20px;
   }
 
-  .checkout_btn{
+  /* .checkout_btn{
     display: none;
   }
   .pay_btn{
     margin-top: 15px;
     text-align: center;
     display: block;
-  }
+  } */
 }
 
 @media only screen and (max-width: 500px) {
