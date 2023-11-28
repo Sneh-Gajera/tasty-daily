@@ -375,6 +375,15 @@
   .time {
     padding: 10px 20px;
   }
+
+  .checkout_btn{
+    display: none;
+  }
+  .pay_btn{
+    margin-top: 15px;
+    text-align: center;
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -442,6 +451,7 @@
     height: 170px;
   }
   .braed {
+    margin-top: 72px;
     height: 170px;
   }
   .bg_row_color td {
