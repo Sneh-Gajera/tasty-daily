@@ -415,6 +415,10 @@
   .fea1 span {
     font-size: 14px;
   }
+
+  .user_info1{
+    top:75px
+  }
 }
 
 @media only screen and (max-width: 425px) {

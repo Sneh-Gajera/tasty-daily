@@ -26,6 +26,12 @@ window.addEventListener("scroll", function () {
   nav.classList.toggle("sticky", window.scrollY > 50);
 });
 
+$(document).ready(function () {
+    $(".serch i").click(function () {
+        $(this).toggleClass("fa-times");
+      $(".user_info1").slideToggle(500);
+    });
+  });
 
   $('.brand_slider').owlCarousel({
     loop:true,
