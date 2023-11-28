@@ -45,8 +45,7 @@ ul {
 
 /* preloader */
 
-
-#pre_loader{
+#pre_loader {
   position: fixed;
   left: 0;
   top: 0;
@@ -58,7 +57,7 @@ ul {
   align-items: center;
   z-index: 9999999;
 }
-.loaded{
+.loaded {
   visibility: hidden;
   opacity: 0;
 }
@@ -74,55 +73,55 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
- }
- 
- .spinner span {
-  animation: loading6454 1.75s ease infinite;
- }
- 
- .spinner span:nth-child(2) {
-  animation-delay: 0.25s;
- }
- 
- .spinner span:nth-child(3) {
-  animation-delay: 0.5s;
- }
- 
- .spinner span:nth-child(4) {
-  animation-delay: 0.75s;
- }
- 
- .spinner span:nth-child(5) {
-  animation-delay: 1s;
- }
- 
- .spinner span:nth-child(6) {
-  animation-delay: 1.25s;
- }
- 
- .spinner span:nth-child(7) {
-  animation-delay: 1.5s;
- }
- 
- @keyframes loading6454 {
-  0%, 100% {
-   transform: translateY(0);
-  }
- 
-  50% {
-   transform: translateY(-10px);
-  }
- }
+}
 
+.spinner span {
+  animation: loading6454 1.75s ease infinite;
+}
+
+.spinner span:nth-child(2) {
+  animation-delay: 0.25s;
+}
+
+.spinner span:nth-child(3) {
+  animation-delay: 0.5s;
+}
+
+.spinner span:nth-child(4) {
+  animation-delay: 0.75s;
+}
+
+.spinner span:nth-child(5) {
+  animation-delay: 1s;
+}
+
+.spinner span:nth-child(6) {
+  animation-delay: 1.25s;
+}
+
+.spinner span:nth-child(7) {
+  animation-delay: 1.5s;
+}
+
+@keyframes loading6454 {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
 
 /* navigate */
-.navigate_bar{
+.navigate_bar {
   position: fixed;
   width: 100%;
   z-index: 99999;
   background-color: #fff;
 }
-.navigation { 
+.navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -631,7 +630,7 @@ ul {
   font-size: 18px;
   color: #c0c0c0;
 }
-.cart a{
+.cart a {
   color: #243f2f;
 }
 .cart i {
@@ -1000,18 +999,18 @@ ul {
 
 DETAILS
 .............................*/
-.small_img_group{
+.small_img_group {
   display: flex;
   justify-content: space-between;
 }
 .pro_image1 {
   width: 100%;
 }
-.small_img_col{
+.small_img_col {
   cursor: pointer;
   flex-basis: 24%;
 }
-.pro_image img{
+.pro_image img {
   border-radius: 10px;
 }
 
@@ -1079,7 +1078,7 @@ DETAILS
   font-size: 14px;
   font-weight: 300;
 }
-.kg .nav{
+.kg .nav {
   text-align: start;
 }
 .kg .nav-pills .nav-link.active,
@@ -1235,4 +1234,90 @@ DETAILS
 .owl-theme .owl-dots {
   padding-top: 30px;
   display: none;
+}
+
+/* modal login */
+
+.modal-body .modal_title span {
+  font-family: var(--font-family);
+  color: var(--jeri-green);
+  position: relative;
+  font-size: 30px;
+}
+.modal-body .modal_title span::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 2px;
+  border-radius: 50%;
+  background-color: var(--parrot-color);
+  left: 0;
+  bottom: -2px;
+}
+
+.form-group input:focus {
+  box-shadow: none !important;
+  border: none !important;
+  outline: none !important;
+  border-bottom: 1px solid var(--jeri-green) !important;
+}
+
+.form-group input {
+  font-size: 16px !important;
+  border: none;
+  outline: none;
+  border-radius: 0;
+  border-bottom: 1px solid var(--jeri-green) !important;
+}
+
+.form-group label {
+  font-size: 12px;
+  color: #777;
+  font-weight: 500;
+}
+.modal-body .login_btn {
+  width: 100%;
+  background-color: var(--parrot-color);
+  font-family: var(--font-family1);
+  color: #fff;
+}
+
+.modal-body .login_btn p {
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+.modal-body{
+  padding-top: 0 !important;
+}
+
+.modal-header a {
+  text-decoration: none;
+  font-size: 30px;
+  color: black !important;
+}
+
+.modal-header {
+  padding-bottom: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: end !important;
+
+  border-bottom: none !important;
+  border-top-left-radius: var(--bs-modal-inner-border-radius);
+  border-top-right-radius: var(--bs-modal-inner-border-radius);
+}
+
+.account_text p {
+  font-size: 16px;
+  font-family: var(--font-family1);
+  text-align: center;
+}
+
+.account_text span a{
+  
+  font-weight: bold;
+  color: var(--parrot-color);
 }
