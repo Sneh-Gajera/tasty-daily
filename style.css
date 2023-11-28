@@ -1280,6 +1280,7 @@ DETAILS
   background-color: var(--parrot-color);
   font-family: var(--font-family1);
   color: #fff;
+  cursor: pointer;
 }
 
 .modal-body .login_btn p {
