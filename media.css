@@ -217,6 +217,11 @@
      background: #243f2f !important ;
      opacity: 0.2;
    }
+
+   .checkout_row{
+    display: flex;
+    flex-direction: column-reverse;
+   }
 }
 @media only screen and (max-width: 768px) {
   .hero {
