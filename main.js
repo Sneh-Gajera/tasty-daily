@@ -2,14 +2,14 @@
 
 // preloader
 
-// $(document).ready(function () {
-//     setTimeout(() => {
-//       $("#pre_loader").addClass("loaded");
-//     }, 1500);
-//     setTimeout(() => {
-//       $("#pre_loader").remove("loaded");
-//     }, 2000);
-//   });
+$(document).ready(function () {
+    setTimeout(() => {
+      $("#pre_loader").addClass("loaded");
+    }, 1500);
+    setTimeout(() => {
+      $("#pre_loader").remove("loaded");
+    }, 2000);
+  });
 
 $(document).ready(function () {
     $(".humberger i").click(function () {
