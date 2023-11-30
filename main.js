@@ -5,10 +5,10 @@
 $(document).ready(function () {
     setTimeout(() => {
       $("#pre_loader").addClass("loaded");
-    }, 2000);
+    }, 1500);
     setTimeout(() => {
       $("#pre_loader").remove("loaded");
-    }, 3000);
+    }, 2000);
   });
 
 $(document).ready(function () {
