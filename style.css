@@ -45,7 +45,7 @@ ul {
 
 /* preloader */
 
-#pre_loader {
+/* #pre_loader {
   position: fixed;
   left: 0;
   top: 0;
@@ -112,7 +112,7 @@ ul {
   50% {
     transform: translateY(-10px);
   }
-}
+} */
 
 /* navigate */
 .navigate_bar {
@@ -141,6 +141,10 @@ ul {
   color: black;
   font-size: 18px;
   font-weight: 500;
+}
+
+.link_side ul li.active a {
+  color: var(--parrot-color) !important;
 }
 
 .user_info i {
@@ -1277,12 +1281,11 @@ DETAILS
   font-weight: 575;
 }
 
-.checkout_section .form-group input:focus ,.checkout_section .form-group textarea:focus
-{
+.checkout_section .form-group input:focus,
+.checkout_section .form-group textarea:focus {
   box-shadow: none !important;
   border-color: var(--jeri-green) !important;
 }
-
 
 .checkout_section .form-check-input {
   border-color: var(--parrot-color) !important;

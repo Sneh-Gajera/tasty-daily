@@ -96,7 +96,7 @@
 
           <div class="link_side">
             <ul>
-              <li><a href="home.html">Home</a></li>
+              <li class="active"><a href="home.html">Home</a></li>
               <li><a href="about.html">About</a></li>
               <li><a href="shop.html">Shop</a></li>
               <li><a href="gallery.html">Gallery</a></li>
@@ -641,5 +641,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <!-- main js -->
     <script src="main.js" defer></script>
+
+    <script>
+      $(document).on("click", ".link_side ul li", function () {
+        $(this).addClass("active").siblings().removeClass("active");
+      });
+    </script>
   </body>
 </html>
