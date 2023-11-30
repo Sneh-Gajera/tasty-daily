@@ -417,7 +417,9 @@ ul {
   gap: 30px;
   padding-bottom: 25px;
 }
+
 .time {
+
   border-radius: 10px;
   background: #fff;
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
@@ -472,7 +474,8 @@ ul {
   height: 100%;
   border-radius: 10px;
 }
-.image_parts h3 {
+.h3_text{
+  text-align: center;
   color: #fff;
   font-family: var(--font-family);
   font-size: 20px;
@@ -483,6 +486,17 @@ ul {
   z-index: 9999;
   line-height: 30px;
 }
+/* .image_parts h3 {
+  color: #fff;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 9999;
+  line-height: 30px;
+} */
 .offer {
   position: absolute;
   right: 20px;
