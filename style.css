@@ -690,12 +690,11 @@ ul {
 }
 .product1:hover .product_icons{
   opacity: 1;
-  right: 10px;
-  transition: 0.5s all;
+  transition: 0.5s ease-in;
 }
 .product_icons {
   position: absolute;
-  right: -30px;
+  right: 10px;
   top: 10px;
   opacity: 0;
 }
