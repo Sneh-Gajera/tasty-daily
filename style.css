@@ -561,7 +561,9 @@ ul {
   border-radius: 10px;
 }
 /* bread */
-
+.breadcrumb {
+  margin-bottom: 0 !important;
+}
 .braed {
   margin-top: 80px;
   background-image: url(tasty-daily/bread.jpg);
@@ -788,6 +790,12 @@ ul {
   color: #fff;
   font-size: 18px;
   font-weight: 600;
+}
+
+.contact_form .form-group input:focus,
+.contact_form .form-group textarea:focus {
+  box-shadow: none !important;
+  border-color: var(--jeri-green) !important;
 }
 
 /* about */
@@ -1075,7 +1083,7 @@ DETAILS
 .details_text_part p {
   color: #777;
   font-family: var(--font-family1);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
 }
 .id_main {
@@ -1118,10 +1126,11 @@ DETAILS
   background-color: rgb(229, 229, 229) !important;
 }
 .kg {
-  padding: 15px 0;
-  /* padding-top: 25px;
-  padding-bottom: 35px; */
+  /* padding: 15px 0; */
+  /* padding-top: 25px;*/
+  padding-bottom: 15px;
 }
+
 .kg span {
   padding: 6px 20px;
   border-radius: 10px;
@@ -1134,6 +1143,7 @@ DETAILS
   background-color: var(--jeri-green);
 }
 .qty1 {
+  align-items: center;
   display: flex;
   gap: 25px;
 }
@@ -1267,17 +1277,12 @@ DETAILS
   font-weight: 575;
 }
 
-.checkout_section input {
-  border: 1px solid #ddd !important;
-}
-.checkout_section input:focus {
+.checkout_section .form-group input:focus ,.checkout_section .form-group textarea:focus
+{
   box-shadow: none !important;
+  border-color: var(--jeri-green) !important;
 }
-.checkout_section textarea:focus {
-  box-shadow: none !important;
-  outline: none !important;
-  border-color: none !important;
-}
+
 
 .checkout_section .form-check-input {
   border-color: var(--parrot-color) !important;
@@ -1328,7 +1333,7 @@ DETAILS
   font-weight: 300;
 }
 
-.pay_btn{
+.pay_btn {
   margin-top: 15px;
   text-align: center;
   display: none;
