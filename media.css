@@ -31,7 +31,7 @@
     height: 170px;
   }
   .title_part h3 {
-    font-size: 22px;
+    font-size: 16px;
   }
   .price span {
     font-size: 18px;
@@ -222,6 +222,9 @@
     display: flex;
     flex-direction: column-reverse;
    }
+   .title_part h3 {
+    font-size: 16px;
+}
 }
 @media only screen and (max-width: 768px) {
   .hero {
@@ -396,6 +399,11 @@
 
   .account_text p {
     font-size: 12px;
+  }
+
+  .shop_row{
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 

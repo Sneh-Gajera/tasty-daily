@@ -608,6 +608,7 @@ ul {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   background-color: #fff;
   border-radius: 10px;
+  position: relative;
 }
 
 .image_part {
@@ -636,7 +637,7 @@ ul {
 }
 
 .title_part h3 {
-  font-size: 22px;
+  font-size: 16px;
   font-family: var(--font-family);
   color: var(--parrot-color);
   padding-bottom: 10px;
@@ -647,15 +648,20 @@ ul {
 .price span {
   font-family: var(--font-family1);
   font-weight: 500;
+  font-size: 14px;
+  color: var(--jeri-green);
+}
+.price_tag span{
+  font-family: var(--font-family1);
+  font-weight: 500;
   font-size: 20px;
   color: var(--jeri-green);
 }
-
 .price p {
   font-family: var(--font-family1);
   text-decoration: line-through;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 14px;
   color: #c0c0c0;
 }
 .cart a {
@@ -671,7 +677,9 @@ ul {
   border-radius: 50%;
   border: 1px solid var(--jeri-green);
 }
-
+.product1 h3{
+  text-align: start;
+}
 .product1:hover .k2 {
   opacity: 1;
   visibility: visible;
@@ -679,6 +687,28 @@ ul {
 .product_part {
   display: none;
   margin-bottom: 20px;
+}
+.product1:hover .product_icons{
+  opacity: 1;
+  right: 10px;
+  transition: 0.5s all;
+}
+.product_icons {
+  position: absolute;
+  right: -30px;
+  top: 10px;
+  opacity: 0;
+}
+.product_icons .p_icon i{
+  width: 40px;
+  height: 40px;
+  color: var(--jeri-green);
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 .load_more button {
@@ -1081,6 +1111,13 @@ DETAILS
   color: #777;
   font-family: var(--font-family1);
   font-size: 14px;
+  font-weight: 300;
+}
+
+.details_text_part .price p {
+  color: #777;
+  font-family: var(--font-family1);
+  font-size: 20px;
   font-weight: 300;
 }
 
