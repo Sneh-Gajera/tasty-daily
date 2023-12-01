@@ -87,6 +87,9 @@ $(".top_slider").owlCarousel({
     0: {
       items: 1,
     },
+    426:{
+      items: 2,
+    },
     600: {
       items: 2,
     },
@@ -128,6 +131,9 @@ $(".related_slider").owlCarousel({
   responsive: {
     0: {
       items: 1,
+    },
+    426:{
+      items: 2,
     },
     600: {
       items: 2,
