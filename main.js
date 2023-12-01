@@ -149,7 +149,7 @@ $(".related_slider").owlCarousel({
 new PureCounter({
     selector: ".purecounter",
     duration: 2,
-    delay: 10,
+    delay: 100,
     repeat: false,
     decimals: 0,
     legacy: true,
