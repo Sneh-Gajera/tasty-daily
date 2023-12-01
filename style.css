@@ -1340,7 +1340,7 @@ DETAILS
 }
 
 .owl-theme .owl-dots {
-  padding-top: 30px;
+  /* padding-top: 30px; */
   display: none;
 }
 
