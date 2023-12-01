@@ -413,19 +413,25 @@ ul {
 }
 .deal_time {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  gap: 15px;
   padding-bottom: 25px;
+}
+.deal_inners {
+  display: flex;
+  gap: 15px;
 }
 
 .time {
-
+  width: 100px;
   border-radius: 10px;
   background: #fff;
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
   text-align: center;
   background-color: #fff;
-  padding: 20px 40px;
+  padding: 10px;
+  /* padding: 20px 40px; */
   /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
 }
 
@@ -474,7 +480,7 @@ ul {
   height: 100%;
   border-radius: 10px;
 }
-.h3_text{
+.h3_text {
   text-align: center;
   color: #fff;
   font-family: var(--font-family);
@@ -665,7 +671,7 @@ ul {
   font-size: 14px;
   color: var(--jeri-green);
 }
-.price_tag span{
+.price_tag span {
   font-family: var(--font-family1);
   font-weight: 500;
   font-size: 20px;
@@ -691,7 +697,7 @@ ul {
   border-radius: 50%;
   border: 1px solid var(--jeri-green);
 }
-.product1 h3{
+.product1 h3 {
   text-align: start;
 }
 .product1:hover .k2 {
@@ -702,7 +708,7 @@ ul {
   display: none;
   margin-bottom: 20px;
 }
-.product1:hover .product_icons{
+.product1:hover .product_icons {
   opacity: 1;
   transition: 0.5s ease-in;
 }
@@ -712,7 +718,7 @@ ul {
   top: 10px;
   opacity: 0;
 }
-.product_icons .p_icon i{
+.product_icons .p_icon i {
   width: 40px;
   height: 40px;
   color: var(--jeri-green);

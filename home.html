@@ -631,24 +631,40 @@
               <h2>Special Deal Of This Week</h2>
 
               <div class="deal_time">
-                <div class="time">
-                  <h3>7</h3>
-                  <p>Days</p>
+                <div class="deal_inners">
+                  <div class="time">
+                    <h3  data-purecounter-start="0"
+                    data-purecounter-end="15"
+                    data-purecounter-once="false"
+                    class="purecounter counter-data timer count-title count-number">00</h3>
+                    <p>Days</p>
+                  </div>
+
+                  <div class="time">
+                    <h3 data-purecounter-start="0"
+                    data-purecounter-end="30"
+                    data-purecounter-once="false"
+                    class="purecounter counter-data timer count-title count-number">00</h3>
+                    <p>Hours</p>
+                  </div>
                 </div>
 
-                <div class="time">
-                  <h3>24</h3>
-                  <p>Hours</p>
-                </div>
+                <div class="deal_inners">
+                  <div class="time">
+                    <h3 data-purecounter-start="0"
+                    data-purecounter-end="25"
+                    data-purecounter-once="false"
+                    class="purecounter counter-data timer count-title count-number">00</h3>
+                    <p>Minutes</p>
+                  </div>
 
-                <div class="time">
-                  <h3>10</h3>
-                  <p>Minutes</p>
-                </div>
-
-                <div class="time">
-                  <h3>40</h3>
-                  <p>Seconds</p>
+                  <div class="time">
+                    <h3 data-purecounter-start="0"
+                    data-purecounter-end="45"
+                    data-purecounter-once="false"
+                    class="purecounter counter-data timer count-title count-number">00</h3>
+                    <p>Seconds</p>
+                  </div>
                 </div>
               </div>
 
@@ -904,6 +920,8 @@
 
     <!-- owl carousel -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <!-- counter -->
+        <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
     <!-- main js -->
     <script src="main.js" defer></script>
 
@@ -911,6 +929,10 @@
       $(document).on("click", ".link_side ul li", function () {
         $(this).addClass("active").siblings().removeClass("active");
       });
+
+
+
+    
     </script>
   </body>
 </html>
