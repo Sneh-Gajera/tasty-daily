@@ -386,6 +386,11 @@
   .time {
     padding: 10px 20px;
   }
+  .load_more button {
+    padding: 10px;
+    font-size: 14px;
+  
+}
 
   /* .checkout_btn{
     display: none;

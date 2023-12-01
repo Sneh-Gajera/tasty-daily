@@ -34,14 +34,7 @@ $(function(){
   });
 });   
 
-//   var menus=document.getElementsByClassName('link_side');
 
-//   document.onclick=function(e){
-//     if(e.target.id !== menus)
-//     {
-//         menus.classList.remove('active');
-//     }
-//   }
 
 // sticky nav
 
