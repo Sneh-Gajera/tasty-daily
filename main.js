@@ -17,6 +17,8 @@ $(document).ready(function () {
   });
 });
 
+
+
 //   var menus=document.getElementsByClassName('link_side');
 
 //   document.onclick=function(e){
