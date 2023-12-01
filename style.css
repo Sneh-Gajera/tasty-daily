@@ -142,10 +142,13 @@ ul {
   font-size: 18px;
   font-weight: 500;
 }
-
-.link_side ul li.active a {
-  color: var(--parrot-color) !important;
+.link_side a:hover, .link_side .active > a, .link_side li:hover > a {
+  color: var(--parrot-color);
+  /* border-color: #3fbbc0; */
 }
+/* .link_side ul li.active a {
+  color: var(--parrot-color) !important;
+} */
 
 .user_info i {
   font-size: 20px;
@@ -481,6 +484,7 @@ ul {
   border-radius: 10px;
 }
 .h3_text {
+  padding: 0 18px;
   text-align: center;
   color: #fff;
   font-family: var(--font-family);
@@ -488,7 +492,7 @@ ul {
   font-weight: 700;
   position: absolute;
   bottom: 10px;
-  left: 10px;
+  /* left: 10px; */
   z-index: 9999;
   line-height: 30px;
 }

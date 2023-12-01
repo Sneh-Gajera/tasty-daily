@@ -17,7 +17,22 @@ $(document).ready(function () {
   });
 });
 
-
+$(function(){
+  var current_page_URL = location.href;
+  $( ".link_side a" ).each(function() 
+  {
+     if ($(this).attr("href") !== "#") 
+     {
+       var target_URL = $(this).prop("href");
+       if (target_URL == current_page_URL) 
+       {
+          $(".link_side a").parent("li").removeClass("active");
+          $(this).parent("li").addClass("active");
+          return false;
+       }
+     }
+  });
+});   
 
 //   var menus=document.getElementsByClassName('link_side');
 
