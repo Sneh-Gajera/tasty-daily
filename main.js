@@ -40,17 +40,6 @@ $(document).ready(function () {
   });
 });
 
-new PureCounter({
-    selector: ".purecounter",
-    duration: 2,
-    delay: 10,
-    repeat: false,
-    decimals: 0,
-    legacy: true,
-    filesizing: false,
-    currency: false,
-    separator: true,
-  });
 
 
 $(".brand_slider").owlCarousel({
@@ -138,3 +127,16 @@ $(".related_slider").owlCarousel({
     },
   },
 });
+
+
+new PureCounter({
+    selector: ".purecounter",
+    duration: 2,
+    delay: 10,
+    repeat: false,
+    decimals: 0,
+    legacy: true,
+    filesizing: false,
+    currency: false,
+    separator: true,
+  });
