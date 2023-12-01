@@ -271,6 +271,9 @@
   .owl-nav {
     display: none;
   }
+  .about_text h3 {
+    font-size: 20px;
+}
 }
 @media only screen and (max-width: 767px) {
   .bread_title h2 {
