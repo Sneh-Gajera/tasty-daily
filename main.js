@@ -11,13 +11,29 @@ $(document).ready(function () {
     }, 2000);
   });
 
+//   responsive menu
 $(document).ready(function () {
     $(".humberger i").click(function () {
       $(this).toggleClass("fa-times");
       $(".link_side").toggleClass("active");
     });
+
+    
   });
+
+ 
   
+  
+
+//   var menus=document.getElementsByClassName('link_side');
+
+//   document.onclick=function(e){
+//     if(e.target.id !== menus)
+//     {
+//         menus.classList.remove('active');
+//     }
+//   }
+
 
   // sticky nav
 
