@@ -82,7 +82,7 @@
     height: 175px !important;
     width: 100%;
   }
-  .about_service_responsive{
+  .about_service_responsive {
     height: 185px;
   }
 }
@@ -93,10 +93,10 @@
   .owl-nav {
     display: none;
   }
-  .top_rated .owl-carousel .owl-item img {
+  /* .top_rated .owl-carousel .owl-item img {
     height: 175px !important;
     width: 100%;
-  }
+  } */
 }
 @media only screen and (max-width: 1024px) {
   .hero {
@@ -164,10 +164,10 @@
   .image_parts h3 {
     /* left: 14%; */
   }
-  .top_rated .owl-carousel .owl-item img {
+  /* .top_rated .owl-carousel .owl-item img {
     height: 250px !important;
     width: 100%;
-  }
+  } */
   .delivery {
     height: 380px;
   }
@@ -205,9 +205,9 @@
     height: 250px;
   }
 
-  .image_part {
+  /* .image_part {
     height: 250px;
-  }
+  } */
 
   .footer_main .text_part p {
     font-size: 14px;
@@ -273,10 +273,11 @@
   }
   .about_text h3 {
     font-size: 20px;
-}
-.product1 .image_part{
-  height: 190px;
-}
+  }
+  /* .product1 .image_part {
+    height: 190px;
+  } */
+ 
 }
 @media only screen and (max-width: 767px) {
   .bread_title h2 {
@@ -380,10 +381,10 @@
     text-align: center;
     display: block;
   }
-  .related_slider .product1 .image_part{
+  /* .related_slider .product1 .image_part {
     height: 170px !important;
     width: 100%;
-  }
+  } */
 }
 
 @media only screen and (max-width: 575px) {
@@ -449,15 +450,13 @@
   .account_text p {
     font-size: 12px;
   }
-  .image_part {
+   /* .image_part {
     height: 140px;
-}
-.top_rated .owl-carousel .owl-item img {
-  height: 150px !important;
-  width: 100%;
-}
-
-  
+  }
+  .top_rated .owl-carousel .owl-item img {
+    height: 150px !important;
+    width: 100%;
+  } */
 }
 
 @media only screen and (max-width: 500px) {
@@ -507,15 +506,12 @@
   .user_info1 {
     top: 75px;
   }
+
   
- 
 }
 
 @media only screen and (max-width: 425px) {
-  .top_rated .owl-carousel .owl-item img {
-    height: 250px !important;
-    width: 100%;
-  }
+ 
   .user_info i {
     font-size: 15px;
   }
@@ -547,12 +543,12 @@
     width: 100% !important;
     flex-direction: column;
   }
-  .image_part {
+  /* .image_part {
     height: 250px;
-}
-.product1 .image_part{
-  height: 220px;
-}
+  }
+  .product1 .image_part {
+    height: 220px;
+  } */
 }
 
 @media only screen and (max-width: 400px) {
@@ -600,7 +596,7 @@
   .about_text h3 {
     font-size: 18px !important;
   }
-  .about_text_part h4{
+  .about_text_part h4 {
     font-size: 18px;
   }
   .hero_text p {
